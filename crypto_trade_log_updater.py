@@ -8,6 +8,7 @@ with open("cryptoorg.txt", "a") as file:
     file.write("------------------\n")
     for i in coins:
         a = input(i + ": ")
+        file.write(i + ": ")
         file.write(a)
         file.write('\n')
 
